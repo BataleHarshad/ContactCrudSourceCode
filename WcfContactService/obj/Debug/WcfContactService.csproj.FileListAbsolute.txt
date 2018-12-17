@@ -1,0 +1,6 @@
+F:\Harshad\SampleWork\Web\Test\ContactCrud\WebMVCContacts\WcfContactService\bin\WcfContactService.dll.config
+F:\Harshad\SampleWork\Web\Test\ContactCrud\WebMVCContacts\WcfContactService\bin\WcfContactService.dll
+F:\Harshad\SampleWork\Web\Test\ContactCrud\WebMVCContacts\WcfContactService\bin\WcfContactService.pdb
+F:\Harshad\SampleWork\Web\Test\ContactCrud\WebMVCContacts\WcfContactService\obj\Debug\WcfContactService.dll
+F:\Harshad\SampleWork\Web\Test\ContactCrud\WebMVCContacts\WcfContactService\obj\Debug\WcfContactService.pdb
+F:\Harshad\SampleWork\Web\Test\ContactCrud\WebMVCContacts\WcfContactService\obj\Debug\WcfContactService.csprojResolveAssemblyReference.cache
