@@ -1,0 +1,48 @@
+﻿@model IEnumerable<WebMVCContacts.Models.ContactModel >
+
+<p style="padding-left:100px;" >
+
+    @Html.ActionLink("Create New Contact", "AddContact")
+</p>
+<p>
+    <h1> Contact List</h1>
+</p>
+<table width="90%" class="table">
+    <tr>
+        <th align="left" width="20%">
+            @Html.DisplayNameFor(model => model.FName)
+        </th>
+        <th align="left" width="20%">
+            @Html.DisplayNameFor(model => model.LName)
+        </th>
+        <th align="left" width="20%">
+            @Html.DisplayNameFor(model => model.EmailId)
+        </th>
+        <th align="left"  width="20%">
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th width="20%" ></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "UpdateContact", new { id = item.Id }) |&nbsp;&nbsp;
+            @Html.ActionLink("Delete", "DeleteContact", new { id = item.Id }, new { onclick=" return confirm('Are sure wants to delete');" })
+        </td>
+    </tr>
+}
+
+</table>
